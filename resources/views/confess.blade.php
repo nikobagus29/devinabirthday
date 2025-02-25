@@ -59,7 +59,7 @@
                 <p class="text-right text-gray-600 font-bold text-xl mt-6">- 13</p>
             </div>
             <div class="flex justify-center gap-6 mt-10 mb-4">
-                <a href="{{ route('home') }}"
+                <a href="{{ route('pesan') }}"
                     class="hover-button bg-gradient-to-r from-gray-800 to-gray-600 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />

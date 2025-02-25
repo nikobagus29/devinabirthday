@@ -74,7 +74,7 @@
                         dan sebutkan semua hal yang kamu inginkan yaa. 
                         <br>Sudah? Okeyy lanjuttt 🎈
                     </p>
-                    <img src="{{ asset('images/p1.png') }}" alt="Birthday cake"
+                    <img src="{{ asset('images/p1.PNG') }}" alt="Birthday cake"
                         class="w-full h-96 object-cover rounded-lg hover-scale animate-float">
                 </div>
 
