@@ -54,7 +54,7 @@
         <div class="bg-white rounded-lg p-6 max-w-md w-full">
             <h3 class="text-xl font-bold mb-4">Verifikasi</h3>
             <span class="text-sm font-normal">Mohon masukkan kata kunci bahwa kamu memang Devina.</span> <br>
-            <span class="text-sm font-normal">Jika kamu bukan Devina langsung klik tombil lanjut.</span>
+            <span class="text-sm font-normal">Jika kamu bukan Devina langsung klik tombol lanjut.</span>
             <form id="verificationForm">
                 <div class="mb-4 mt-4">
                     <label for="password" class="block text-sm font-medium text-gray-700">Masukkan Kata Kunci:</label>

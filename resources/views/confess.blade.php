@@ -22,7 +22,7 @@
             <div class="bg-gradient-to-b from-gray-50 to-white p-8 rounded-2xl border-l-8 border-gray-400 shadow-lg"
                 data-aos="fade-up" data-aos-delay="100">
                 <div class="space-y-6">
-                    <p class="text-gray-700 font-semibold text-lg leading-relaxed">
+                    <p class="text-gray-700 font-normal text-sm leading-relaxed">
                         Hai Dev, Ono sesuatu sing pingin tak sampaikan. Sebelum e sorry ya mungkin bahasa ku bakal campur
                         aduk, semoga kamu paham yaa. Mungkin nek kamu eleng setaun lalu pas aku ngekek i ucapan ulang tahun
                         kamu sempet takon ngene kan, "maksud e opo?". Nah mungkin iki waktu sing pas gawe aku njawab
@@ -30,12 +30,12 @@
                         ngomong tok, aku ga pingin lebih entah apapun iku soale ya koyok e ga memungkinkan
                         gawe saiki. Dadi saiki aku ngomong ngene sebatas cek lego ae. Opo maneh mariki wes lulus kan, aku ga pingin nyesel ae se sebener e.
                     </p>
-                    <p class="text-gray-700 font-semibold text-lg leading-relaxed">
+                    <p class="text-gray-700 font-normal text-sm leading-relaxed">
                         Nah gawe saiki aku terserah se dev yoopo ae aku ga masalah, kene iso koncoan alhamdulillah tapi nek ga ya gapapa, tak
                         kembalikan ng kamu ae. Mungkin aku ga bakal inisiatif ngechat atau apapun iku ya, tapi sng pasti aku
                         bakal welcome banget gawe kamu dalam keadaan apapun.
                     </p>
-                    <p class="text-gray-700 font-semibold text-lg leading-relaxed">
+                    <p class="text-gray-700 font-normal text-sm leading-relaxed">
                         Nah gawe kedepan e, jujur aku gatau dan aku ya ga yakin. Tapi mungkin sng pasti kene iso fokus gawe
                         masa depan masing-masing. Kamu bebas ngelakoni opo ae sng sesuai keinginanmu dan isi hatimu. Kejar
                         cita-cita, hobi, dan semuanya selama kamu bahagia dan nyaman. Aku percoyo kok dev seandaine jodoh pasti ono dalan e haha.
@@ -44,14 +44,14 @@
                         ngejar. Tapi ya semua tergantung nanti, aku ya gaiso nggawe pasti, semua tergantung
                         waktu dan keadaan.
                     </p>
-                    <p class="text-gray-700 font-semibold text-lg leading-relaxed">
+                    <p class="text-gray-700 font-normal text-sm leading-relaxed">
                         Mungkin ngunu ae se dev, makasiii bangettt wes gelem moco sampe kene. Gausa terlalu dipikirno,
                         kabeh iki aku mek pingin ngomong tok kok, aku ya ga njamin semua sng tak sampekno bakal kejadian.
                         Intine yaa fokus dirimu sendiri, keluarga dan masa depan. Yoopo ae ngkok ending e aku percoyo iku
                         sng terbaik kok, gawe kamu dan gawe aku. Koyok e cukup deh gawe saiki, mungkin kita bahas lebih
                         banyak kalau ada kesempatan. Makasi yaa, See You.
                     </p>
-                    <p class="text-gray-700 font-semibold text-lg leading-relaxed">
+                    <p class="text-gray-700 font-normal text-sm leading-relaxed">
                         Dari aku pribadi, Happy Birthday yaaa, Bahagia Selaluu.
                     </p>
                 </div>
