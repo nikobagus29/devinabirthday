@@ -12,7 +12,7 @@ class GalleryController extends Controller
             [
                 'id' => 1,
                 'src' => 'images/9.jpg',
-                'message' => '18-01-24 - Awal awal nih'
+                'message' => '28-11-23 - Awal awal nih'
             ],
             [
                 'id' => 2,
