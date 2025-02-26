@@ -63,13 +63,13 @@
 @endsection
 
 @section('content')
-    <section id="wishes" class="py-20 bg-gradient-to-b from-gray-100 via-gray-50 to-white">
+    <section id="wishes" class="py-20 bg-gradient-to-b from-[#f1ece3] to-[#f0ede9]">
         <div class="container mx-auto px-4">
-            <h2 class="text-4xl font-extrabold text-center text-gray-900 mb-12 animate-fade-in">Special Cake 🎂</h2>
+            <h2 class="text-4xl font-extrabold text-center text-[#756763] mb-12 animate-fade-in">Special Cake 🎂</h2>
             <div class="grid md:grid-cols-2 gap-10">
                 <!-- Kolom Pertama -->
-                <div class="bg-white p-8 rounded-xl shadow-lg animate-slide-up">
-                    <p class="text-gray-700 mb-6 animate-fade-in text-lg leading-relaxed">
+                <div class="bg-[#f0d8cc] p-8 rounded-xl shadow-lg animate-slide-up">
+                    <p class="text-[#756763] mb-6 animate-fade-in text-lg leading-relaxed">
                         Hari ini "Panda" bawa kue spesial lo buat kamu. Sebelum kamu meniup lilinnya, pejamkan mata sebentar
                         dan sebutkan semua hal yang kamu inginkan yaa. 
                         <br>Sudah? Okeyy lanjuttt 🎈
@@ -79,10 +79,10 @@
                 </div>
 
                 <!-- Kolom Kedua -->
-                <div class="flex flex-col items-center justify-center bg-white p-8 rounded-xl shadow-lg animate-slide-up">
+                <div class="flex flex-col items-center justify-center bg-[#f0d8cc] p-8 rounded-xl shadow-lg animate-slide-up">
                     <img src="{{ asset('images/p4.png') }}" alt="Birthday balloons"
                         class="w-80 h-80 object-cover rounded-lg mb-6 hover-scale animate-float">
-                    <p class="text-gray-700 text-center animate-fade-in text-lg leading-relaxed">
+                    <p class="text-[#756763] text-center animate-fade-in text-lg leading-relaxed">
                         Semoga apapun yang kamu sebutkan tadi segera terwujud yaaa. Btw "Pinguin" juga bawa hadiah kecil
                         lo buat kamu. Penasaran ga apa isinya? 🎁
                     </p>
@@ -92,14 +92,14 @@
             <!-- Container untuk Tombol -->
             <div class="flex flex-row justify-center gap-4 md:gap-6 mt-8 md:mt-10">
                 <a href="{{ route('perkenalan') }}"
-                    class="hover-button bg-gradient-to-r from-gray-800 to-gray-600 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
+                    class="hover-button bg-gradient-to-l from-[#756763] to-[#86746f] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                     </svg>
                     Kembali
                 </a>
                 <a href="{{ route('gallery') }}"
-                    class="hover-button bg-gradient-to-r from-slate-600 to-slate-800 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
+                    class="hover-button bg-gradient-to-r from-[#756763] to-[#86746f] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
                     Lanjutkan
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />

@@ -89,7 +89,7 @@
 @section('content')
 <div class="birthday-bg min-h-screen">
     <!-- Section 1: Hero Section -->
-    <section id="home" class="pt-12 relative overflow-hidden">
+    <section id="home" class="pt-12 relative overflow-hidden bg-gradient-to-br from-[#f1ece3] to-[#f0ede9]">
         <!-- Sparkles -->
         @for($i = 0; $i < 20; $i++)
             <div class="sparkle" style="left: {{ rand(0, 100) }}%; top: {{ rand(0, 100) }}%; animation-delay: -{{ rand(0, 2000)/1000 }}s;"></div>
@@ -100,25 +100,25 @@
                 <!-- Text Content -->
                 <div class="w-full lg:w-1/2 self-center px-4" data-aos="fade-right">
                     <div class="space-y-6">
-                        <h1 class="text-xl lg:text-2xl font-bold text-gray-800 animate__animated animate__bounceIn">
+                        <h1 class="text-xl lg:text-2xl font-bold text-[#756763] animate__animated animate__bounceIn">
                             Halo Devinaaa 👋
-                            <span class="block text-3xl lg:text-5xl mt-2 text-gradient font-extrabold">
+                            <span class="block text-3xl lg:text-5xl mt-2 text-[#756763] font-extrabold">
                                 Selamat Ulang Tahun Yaaaa
                             </span>
                         </h1>
                         
-                        <h2 class="text-xl lg:text-2xl font-bold text-gray-800 animate__animated animate__fadeIn animate__delay-1s">
+                        <h2 class="text-xl lg:text-2xl font-bold text-[#756763] animate__animated animate__fadeIn animate__delay-1s">
                             Happy Eighteen ✨
                         </h2>
                         
-                        <div class="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg animate__animated animate__fadeIn animate__delay-2s">
-                            <p class="text-md lg:text-lg text-gray-700 leading-relaxed">
+                        <div class="bg-gradient-to-br from-[#f0e6d7] to-[#f0e8db] backdrop-blur-sm rounded-xl p-6 shadow-lg animate__animated animate__fadeIn animate__delay-2s">
+                            <p class="text-md lg:text-lg text-[#756763] leading-relaxed">
                                 Di hari yang spesial ini, "Panda" punya sesuatu yang spesial juga lo buat kamu.
                                 <br>Dibaca sampai akhir yaaa
                             </p>
                         </div>
                         
-                        <h2 class="text-lg lg:text-xl font-bold text-gray-800 animate__animated animate__fadeIn animate__delay-3s">
+                        <h2 class="text-lg lg:text-xl font-bold text-[#756763] animate__animated animate__fadeIn animate__delay-3s">
                             Enjoy the trip, Let's Go!!! 🎉
                         </h2>
                     </div>
@@ -148,7 +148,7 @@
                    x-transition:enter="transition ease-out duration-500 transform"
                    x-transition:enter-start="opacity-0 scale-75"
                    x-transition:enter-end="opacity-100 scale-100"
-                   class="animate-button bg-gradient-to-r from-slate-600 to-slate-800 text-white px-10 py-4 rounded-full shadow-lg text-lg font-semibold flex items-center gap-3">
+                   class="animate-button bg-gradient-to-r from-[#756763] to-[#86746f] text-white px-10 py-4 rounded-full shadow-lg text-lg font-semibold flex items-center gap-3">
                     <span>Mulai Perjalanan</span>
                     <span class="text-2xl">🚀</span>
                 </a>

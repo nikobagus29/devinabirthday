@@ -1,13 +1,13 @@
 @extends('layouts')
 
 @section('content')
-<section id="song" class="py-20 bg-gradient-to-b from-gray-100 to-white">
+<section id="song" class="py-20 bg-gradient-to-b from-[#f1ece3] to-white">
     <div class="container mx-auto px-4">
-        <div class="bg-white p-8 rounded-lg shadow-lg">
-            <h2 class="text-4xl font-bold text-center text-gray-800 mb-8" data-aos="fade-up">Special Song</h2>
+        <div class="bg-[#f0d8cc] backdrop-blur-lg p-8 rounded-lg shadow-lg">
+            <h2 class="text-4xl font-bold text-center text-[#756763]  mb-8" data-aos="fade-up">Special Song</h2>
             <div class="grid gap-6">
-                <div class="bg-gray-100 p-6 rounded-lg shadow-md" data-aos="fade-right">
-                    <p class="text-gray-700 text-lg">
+                <div class="bg-gradient-to-br from-[#f2eade] to-[#ece7df] p-6 rounded-lg shadow-md" data-aos="fade-right">
+                    <p class="text-[#756763] text-lg">
                         Sebelum mulai, mungkin kalau ada musiknya bakal lebih asik. "Panda" punya pilihan beberapa musik
                         nih. Semoga kamu suka yaa.
                     </p>
@@ -16,14 +16,14 @@
                 <!-- Dropdown & Button -->
                 <div class="text-center">
                     <select id="songSelector"
-                        class="bg-white border border-gray-300 text-gray-700 py-2 px-4 rounded-md mb-4 w-full md:w-1/2 mx-auto">
+                        class="bg-[#f2eade] border border-[#f2eade] text-[#756763]  py-2 px-4 rounded-md mb-4 w-full md:w-1/2 mx-auto">
                         <option value="{{ asset('lagu/monokrom.mp3') }}">Monokrom - Tulus</option>
                         <option value="{{ asset('lagu/sertaMulia.mp3') }}">Serta Mulia - Sal Priadi</option>
                         <option value="{{ asset('lagu/birthdayGirl.mp3') }}">Birthday Girl - Alva Leigh</option>
                     </select>
 
                     <button id="playButton"
-                        class="bg-gradient-to-r from-gray-500 to-gray-600 hover:from-gray-600 hover:to-gray-500 text-white font-bold py-3 px-6 rounded-full w-full md:w-1/2 mx-auto transition duration-300 transform hover:scale-105">
+                        class="bg-gradient-to-r from-[#756763] to-[#86746f] text-white font-bold py-3 px-6 rounded-full w-full md:w-1/2 mx-auto transition duration-300 transform hover:scale-105">
                         Play Music
                     </button>
                 </div>
@@ -32,14 +32,14 @@
             <!-- Tombol Navigasi -->
             <div class="flex justify-center gap-6 mt-10">
                 <a href="{{ route('home') }}"
-                    class="hover-button bg-gradient-to-l from-slate-600 to-slate-800 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
+                    class="hover-button bg-gradient-to-l from-[#756763] to-[#86746f] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                     </svg>
                     Kembali
                 </a>
                 <a href="{{ route('perkenalan') }}" target="_blank"
-                    class="hover-button bg-gradient-to-r from-slate-600 to-slate-800 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
+                    class="hover-button bg-gradient-to-r from-[#756763] to-[#86746f] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
                     Lanjutkan
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />

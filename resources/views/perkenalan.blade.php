@@ -152,18 +152,18 @@
 
 @section('content')
     <div class="animated-bg min-h-screen">
-        <section id="introduction" class="py-20 bg-gradient-to-b from-gray-100 to-white relative">
+        <section id="introduction" class="py-20 bg-gradient-to-br from-[#f1ece3] to-[#f0ede9] relative">
             <div class="container mx-auto px-4">
-                <div class="flex flex-col bg-white px-6 rounded-lg shadow-lg items-center text-center relative">
+                <div class="flex flex-col bg-[#f0d8cc]  px-6 rounded-lg shadow-lg items-center text-center relative">
                     <!-- Panda Berbicara -->
-                    <div class="mb-12 relative" data-aos="fade-up">
+                    <div class="mb-12 mt-4 relative" data-aos="fade-up">
                         <div class="relative">
                             <img src="{{ asset('images/panda.png') }}" alt="Panda"
                                 class="w-48 sm:w-64 md:w-72 mx-auto drop-shadow-xl animate-bounce-custom hover-grow"
                                 style="filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1))">
                         </div>
                         <div class="speech-bubble mt-8 animate-fade-in">
-                            <p class="text-xl sm:text-2xl font-semibold text-gray-800">
+                            <p class="text-xl sm:text-2xl font-semibold text-[#756763]">
                                 "Hai Devina! Ketemu lagi nih sama panda. Hari ini ada yang spesial lo, panda mau kenalin
                                 seseorang nih sama kamu, coba tebak siapa? 🤭"
                             </p>
@@ -181,7 +181,7 @@
                                     style="filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1))">
                             </div>
                             <div class="speech-bubble mt-8 animate-slide-up">
-                                <p class="text-xl sm:text-2xl font-semibold text-gray-800">
+                                <p class="text-xl sm:text-2xl font-semibold text-[#756763]">
                                     "Halo Devina! Perkenalkan, Aku Pinguin. Aku teman baik Panda! Btw selamat ulang tahun yaaa 🐧✨"
                                 </p>
                             </div>
@@ -194,7 +194,7 @@
                             x-transition:enter-start="opacity-0 scale-75" x-transition:enter-end="opacity-100 scale-100"
                             class="mt-12 mb-8 flex gap-4 justify-center">
                             <a href="{{ route('music') }}"
-                                class="hover-button bg-gradient-to-l from-slate-600 to-slate-800 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
+                                class="hover-button bg-gradient-to-l from-[#756763] to-[#86746f] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M15 19l-7-7 7-7" />
@@ -202,7 +202,7 @@
                                 Kembali
                             </a>
                             <a href="{{ route('ucapan') }}"
-                                class="hover-button bg-gradient-to-r from-slate-600 to-slate-800 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
+                                class="hover-button bg-gradient-to-r from-[#756763] to-[#86746f] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
                                 Lanjutkan
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

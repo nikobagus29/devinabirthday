@@ -4,10 +4,10 @@
 @endsection
 
 @section('content')
-    <section class="py-12 md:py-20 bg-gradient-to-b from-gray-100 to-white" data-aos="fade-up">
+    <section class="py-12 md:py-20 bg-gradient-to-b from-[#f1ece3] via-[#f0ede9] to-white" data-aos="fade-up">
         <div class="container mx-auto px-4">
             <!-- Judul -->
-            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8 md:mb-12" data-aos="fade-up">Message</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-[#756763] mb-8 md:mb-12" data-aos="fade-up">Message</h2>
 
             <!-- Konten -->
             <div class="flex flex-col md:flex-row items-center">
@@ -20,7 +20,7 @@
 
                 <!-- Pesan -->
                 <div class="w-full md:w-1/2 md:pl-8 px-4" data-aos="fade-left">
-                    <p class="text-gray-700 text-md md:text-lg leading-relaxed">
+                    <p class="text-[#756763] font-medium text-md md:text-lg leading-relaxed">
                         "Panda" mungkin ga punya banyak pesan yang ingin disampaikan, karena tentangmu masih banyak yang
                         belum "Panda" tau. Yang pasti kamu harus tetap menjadi orang baik dan jauh lebih baik yaa, tetap
                         jadi dirimu sendiri. Suatu saat nanti "Panda" ingin lebih mengenalmu dan melihat jauh lebih banyak hal
@@ -32,14 +32,14 @@
             <!-- Tombol Navigasi -->
             <div class="flex flex-row justify-center gap-4 md:gap-6 mt-10 md:mt-10">
                 <a href="{{ route('gallery') }}"
-                    class="hover-button bg-gradient-to-r from-gray-800 to-gray-600 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
+                    class="hover-button bg-gradient-to-l from-[#756763] to-[#86746f] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                     </svg>
                     Kembali
                 </a>
                 <a href="{{ route('selamat') }}"
-                    class="hover-button bg-gradient-to-r from-slate-600 to-slate-800 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
+                    class="hover-button bg-gradient-to-r from-[#756763] to-[#86746f] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
                     Lanjutkan
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -50,41 +50,41 @@
     </section>
 
     <!-- Modal Verifikasi -->
-    <div id="verificationModal" class="hidden fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center p-4">
-        <div class="bg-white rounded-lg p-6 max-w-md w-full">
-            <h3 class="text-xl font-bold mb-4">Verifikasi</h3>
-            <span class="text-sm font-normal">Mohon masukkan kata kunci bahwa kamu memang Devina.</span> <br>
-            <span class="text-sm font-normal">Jika kamu bukan Devina langsung klik tombol lanjut.</span>
+    <div id="verificationModal" class="hidden fixed inset-0 bg-[#756763] bg-opacity-75 flex items-center justify-center p-4">
+        <div class="bg-[#f2eade] rounded-lg p-6 max-w-md w-full">
+            <h3 class="text-xl font-bold mb-4 text-[#756763]">Verifikasi</h3>
+            <span class="text-sm font-normal text-[#756763]">Mohon masukkan kata kunci bahwa kamu memang Devina.</span> <br>
+            <span class="text-sm font-normal text-[#756763]">Jika kamu bukan Devina langsung klik tombol lanjut.</span>
             <form id="verificationForm">
                 <div class="mb-4 mt-4">
-                    <label for="password" class="block text-sm font-medium text-gray-700">Masukkan Kata Kunci:</label>
-                    <input type="password" id="password" name="password" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-500">
+                    <label for="password" class="block text-sm font-medium text-[#756763]">Masukkan Kata Kunci:</label>
+                    <input type="password" id="password" name="password" class="mt-1 block w-full px-3 py-2 border border-[#756763] text-[#756763] rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#86746f] bg-[#f2eade]">
                 </div>
                 <div class="flex justify-end gap-3">
-                    <button onclick="redirectToSelamat()" class="bg-gray-500 text-white px-6 py-2 rounded-md hover:bg-gray-600 transition-transform transform hover:scale-105">
+                    <button onclick="redirectToSelamat()" class="bg-[#756763] text-white px-6 py-2 rounded-md hover:bg-[#86746f] transition-transform transform hover:scale-105">
                         Lanjutkan ke Ucapan
                     </button>
-                    <button type="submit" class="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600">Verifikasi</button>
+                    <button type="submit" class="bg-[#756763] text-white px-4 py-2 rounded-md hover:bg-[#86746f] transition-transform transform hover:scale-105">Verifikasi</button>
                 </div>
             </form>
         </div>
     </div>
 
     <!-- Modal Error -->
-    <div id="errorModal" class="hidden fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center p-4">
-        <div class="bg-white rounded-lg p-6 max-w-md w-full text-center">
+    <div id="errorModal" class="hidden fixed inset-0 bg-[#756763] bg-opacity-75 flex items-center justify-center p-4">
+        <div class="bg-[#f2eade] rounded-lg p-6 max-w-md w-full text-center">
             <!-- Gambar Ilustrasi -->
             <img src="{{ asset('images/p7.png') }}" alt="Error Illustration" class="w-32 h-32 mx-auto mb-4">
     
             <!-- Judul -->
-            <h3 class="text-xl font-bold mb-2 text-red-600">Oops!</h3>
+            <h3 class="text-xl font-bold mb-2 text-border-[#756763]">Oops!</h3>
     
             <!-- Pesan Kesalahan -->
-            <p class="text-gray-700 mb-4">Kata kunci salah! Kamu bukan Devina? <br> Klik tombol di bawah ini untuk memberikan ucapan spesial kepada Devina</p>
+            <p class="text-border-[#756763] mb-4">Kata kunci salah! Kamu bukan Devina? <br> Klik tombol di bawah ini untuk memberikan ucapan spesial kepada Devina</p>
     
             <!-- Tombol -->
             <div class="flex justify-center">
-                <button onclick="redirectToSelamat()" class="bg-gray-500 text-white px-6 py-2 rounded-md hover:bg-gray-600 transition-transform transform hover:scale-105">
+                <button onclick="redirectToSelamat()" class="bg-[#756763] text-white px-6 py-2 rounded-md hover:bg-[#86746f] transition-transform transform hover:scale-105">
                     Lanjutkan ke Ucapan
                 </button>
             </div>

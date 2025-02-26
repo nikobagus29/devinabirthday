@@ -47,13 +47,13 @@
 @endsection
 
 @section('content')
-    <div class="min-h-screen birthday-gradient">
+    <div class="min-h-screen from-[#f1ece3] to-[#f0ede9]">
         {{-- Header Section --}}
         <div class="py-8 px-4 text-center">
-            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-2">
+            <h1 class="text-4xl md:text-5xl font-bold text-[#756763] mb-2">
                 Devina's Gallery
             </h1>
-            <p class="text-lg font-semibold text-gray-600 max-w-md mx-auto">
+            <p class="text-lg font-semibold text-[#756763] max-w-md mx-auto">
                 Selanjutnya kita akan melihat apapun itu asal tentang Devina
             </p>
         </div>
@@ -67,7 +67,7 @@
                             <img src="{{ asset($image['src']) }}" alt="Birthday Memory {{ $image['id'] }}"
                                 class="w-full h-full object-cover object-center transition-transform duration-500">
                             <div class="image-overlay absolute inset-0">
-                                <div class="absolute bottom-0 left-0 right-0 p-4 text-white">
+                                <div class="absolute bottom-0 left-0 right-0 p-4 text-[#f2eade]">
                                     <p class="text-sm font-medium">{{ $image['message'] }}</p>
                                 </div>
                             </div>
@@ -77,14 +77,14 @@
             </div>
             <div class="flex justify-center gap-6 mt-10">
                 <a href="{{ route('ucapan') }}"
-                    class="hover-button bg-gradient-to-r from-gray-800 to-gray-600 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
+                    class="hover-button bg-gradient-to-l from-[#756763] to-[#86746f] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                     </svg>
                     Kembali
                 </a>
                 <a href="{{ route('pesan') }}"
-                    class="hover-button bg-gradient-to-r from-slate-600 to-slate-800 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
+                    class="hover-button bg-gradient-to-r from-[#756763] to-[#86746f] text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full shadow-lg text-base sm:text-lg font-semibold flex items-center justify-center gap-2 transform transition-transform duration-300 hover:scale-105">
                     Lanjutkan
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
