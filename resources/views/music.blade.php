@@ -3,7 +3,7 @@
 @section('content')
 <section id="song" class="py-20 bg-gradient-to-b from-[#f1ece3] to-white">
     <div class="container mx-auto px-4">
-        <div class="bg-[#ffe3c7] backdrop-blur-lg p-8 rounded-lg shadow-lg">
+        <div class="bg-[#ebd5c7] backdrop-blur-lg p-8 rounded-lg shadow-lg">
             <h2 class="text-4xl font-bold text-center text-[#756763]  mb-8" data-aos="fade-up">Special Song</h2>
             <div class="grid gap-6">
                 <div class="bg-gradient-to-br from-[#f2eade] to-[#ece7df] p-6 rounded-lg shadow-md" data-aos="fade-right">

@@ -53,7 +53,7 @@
             <!-- Messages Grid with Improved Mobile Layout -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 mb-4">
                 @foreach ($messages as $message)
-                    <div class="message-card bg-[#ffe3c7] rounded-xl shadow-sm border border-white overflow-hidden">
+                    <div class="message-card bg-[#ebd5c7] rounded-xl shadow-sm border border-white overflow-hidden">
                         <!-- Card Header with Better Mobile Padding -->
                         <div class="p-4 sm:p-6">
                             <!-- Sender Info with Improved Layout -->
@@ -83,7 +83,7 @@
                                 @if ($message->balasan)
                                     <div class="mt-6 relative">
                                         <!-- Vertical Line Connector -->
-                                        <div class="absolute left-5 -top-4 w-0.5 h-4 bg-[#ffe3c7]"></div>
+                                        <div class="absolute left-5 -top-4 w-0.5 h-4 bg-[#ebd5c7]"></div>
 
                                         <div class="ml-8 reply-bubble">
                                             <div
