@@ -47,7 +47,7 @@
 @endsection
 
 @section('content')
-    <div class="min-h-screen from-[#f1ece3] to-[#f0ede9]">
+    <div class="min-h-screen bg-gradient-to-b from-[#f1ece3] to-[#f0ede9]">
         {{-- Header Section --}}
         <div class="py-8 px-4 text-center">
             <h1 class="text-4xl md:text-5xl font-bold text-[#756763] mb-2">
