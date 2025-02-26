@@ -68,7 +68,7 @@
             <h2 class="text-4xl font-extrabold text-center text-[#756763] mb-12 animate-fade-in">Special Cake 🎂</h2>
             <div class="grid md:grid-cols-2 gap-10">
                 <!-- Kolom Pertama -->
-                <div class="bg-[#f0d8cc] p-8 rounded-xl shadow-lg animate-slide-up">
+                <div class="bg-[#ffe3c7] p-8 rounded-xl shadow-lg animate-slide-up">
                     <p class="text-[#756763] mb-6 animate-fade-in text-lg leading-relaxed">
                         Hari ini "Panda" bawa kue spesial lo buat kamu. Sebelum kamu meniup lilinnya, pejamkan mata sebentar
                         dan sebutkan semua hal yang kamu inginkan yaa. 
@@ -79,7 +79,7 @@
                 </div>
 
                 <!-- Kolom Kedua -->
-                <div class="flex flex-col items-center justify-center bg-[#f0d8cc] p-8 rounded-xl shadow-lg animate-slide-up">
+                <div class="flex flex-col items-center justify-center bg-[#ffe3c7] p-8 rounded-xl shadow-lg animate-slide-up">
                     <img src="{{ asset('images/p4.png') }}" alt="Birthday balloons"
                         class="w-80 h-80 object-cover rounded-lg mb-6 hover-scale animate-float">
                     <p class="text-[#756763] text-center animate-fade-in text-lg leading-relaxed">

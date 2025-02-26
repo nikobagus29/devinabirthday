@@ -154,7 +154,7 @@
     <div class="animated-bg min-h-screen">
         <section id="introduction" class="py-20 bg-gradient-to-br from-[#f1ece3] to-[#f0ede9] relative">
             <div class="container mx-auto px-4">
-                <div class="flex flex-col bg-[#f0d8cc]  px-6 rounded-lg shadow-lg items-center text-center relative">
+                <div class="flex flex-col bg-[#ffe3c7]  px-6 rounded-lg shadow-lg items-center text-center relative">
                     <!-- Panda Berbicara -->
                     <div class="mb-12 mt-4 relative" data-aos="fade-up">
                         <div class="relative">

@@ -6,7 +6,7 @@
 @section('content')
     <section class="min-h-screen bg-gradient-to-b from-[#f1ece3] to-[#f0ede9] flex items-center justify-center p-6">
         <div
-            class="bg-[#f0d8cc] backdrop-blur-lg rounded-3xl shadow-2xl max-w-2xl w-full p-8 sm:p-12 relative overflow-hidden">
+            class="bg-[#ffe3c7] backdrop-blur-lg rounded-3xl shadow-2xl max-w-2xl w-full p-8 sm:p-12 relative overflow-hidden">
             <!-- Judul -->
             <h2 class="text-4xl font-bold text-center text-[#756763] mb-8" data-aos="fade-up">
                 Personal Message
